@@ -96,5 +96,10 @@ movies = [
 #movie = movie_properties.Movie()
 
 def movie_tiles_info():
-    return [movie_properties.Movie(movie_info) for movie_info in movies]
+    
+    movie_properties_list = [movie_properties.Movie(movie_info) for movie_info in movies]
+
+    return movie_properties_list
+
+
 

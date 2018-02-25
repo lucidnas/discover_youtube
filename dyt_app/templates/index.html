@@ -2,13 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Fresh Tomatoes!</title>
+    <!--title>Fresh Tomatoes!</title> -->
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
+    body {
+            padding-top: 80px;
+        }
+        #trailer .modal-dialog {
+            margin-top: 200px;
+            width: 640px;
+            height: 480px;
+        }
+        .hanging-close {
+            position: absolute;
+            top: -12px;
+            right: -12px;
+            z-index: 9001;
+        }
+        #trailer-video {
+            width: 100%;
+            height: 100%;
+        }
+        .movie-tile {
+            margin-bottom: 20px;
+            padding-top: 20px;
+        }
+        .movie-tile:hover {
+            background-color: #EEE;
+            cursor: pointer;
+        }
+        .scale-media {
+            padding-bottom: 56.25%;
+            position: relative;
+        }
+        .scale-media iframe {
+            border: none;
+            height: 100%;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 0;
+            background-color: white;
+        }
+    </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
         $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
@@ -52,15 +92,20 @@
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers (Now In Theaters)</a>
+            <a class="navbar-brand" href="/">Home</a>
           </div>
        </div>
+      </div>
+    </div>
     <div class="container">
      {% for movie in movies %}
-      <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{movie.trailer}" data-toggle="modal" data-target="#trailer">
-       	<img src="{movie.poster}" width="220" height="342">
-    	<h2>{movie.title}</h2>
+      <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id={{movie.trailer}} data-toggle="modal" data-target="#trailer">
+       	<a href="{{ url_for('movie_page', movie_title=movie.title.lower(), movie_poster=movie.poster, movie_trailer=movie.trailer) }}">
+            <img src={{movie.poster}} width="220" height="342">
+        </a>
+    	<h2>{{movie.title}}</h2>
 	  </div>
+	  {% endfor %}
     </div>
   </body>
 </html>
