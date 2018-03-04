@@ -98,12 +98,13 @@
       </div>
     </div>
     <div class="container">
-     {% for movie in movies %}
-      <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id={{movie.trailer}} data-toggle="modal" data-target="#trailer">
-       	<a href="{{ url_for('movie_page', movie_title=movie.title.lower(), movie_poster=movie.poster, movie_trailer=movie.trailer) }}">
-            <img src={{movie.poster}} width="220" height="342">
+     {% for key,val in movies.iteritems() %}
+
+      <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id={{movies[key]['trailer']}} data-toggle="modal" data-target="#trailer">
+       	<a href="{{ url_for('movie_page', movie=key) }}">
+            <img src={{movies[key]['poster']}} width="220" height="342">
         </a>
-    	<h2>{{movie.title}}</h2>
+    	<h2>{{movies[key]['title']}}</h2>
 	  </div>
 	  {% endfor %}
     </div>
