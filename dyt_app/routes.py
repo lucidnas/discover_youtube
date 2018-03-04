@@ -1,8 +1,5 @@
 from dyt_app import app
 from flask import render_template
-import logic
-import movie_properties
-
 
 #list_of_movies = logic.movie_tiles_info()
 #print list_of_movies
@@ -26,8 +23,8 @@ movies_list = {"spiderman" : {
 
 @app.route('/')
 @app.route('/index')
-def index():
-    return render_template('index.html', title='Discover Youtube', movies=movies_list)
+def home_page():
+    return render_template('home_page.html', title='Discover Youtube', movies=movies_list)
 
 @app.route('/movie/<movie>')
 def movie_page(movie):
