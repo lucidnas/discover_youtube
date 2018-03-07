@@ -22,6 +22,10 @@ movies_list = {"spiderman" : {
 }
 
 @app.route('/')
+@app.route('/base')
+def base():
+    return render_template('base.html')
+
 @app.route('/index')
 def home_page():
     return render_template('home_page.html', title='Discover Youtube', movies=movies_list)
