@@ -1,36 +1,29 @@
 {% extends "base.html" %}
 {% block title %}Discover Youtube!{% endblock %}
-{% block body %}
-<div class="modal" id="trailer">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
-            <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
-          </a>
-          <div class="scale-media" id="trailer-video-container"></div>
+{% block header %}
+    <header class="masthead text-center text-white">
+      <div class="masthead-content">
+        <div class="container">
+          <h1 class="masthead-heading mb-0">Discover Youtube Movies</h1>
+          <h2 class="masthead-subheading mb-0">That Will Rock Your Socks Off</h2>
+          <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
         </div>
       </div>
-    </div>
-    <!-- Main Page Content -->
+    </header>
+{% endblock %}
+{% block body %}
     <div class="container">
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="/">Home</a>
-          </div>
-       </div>
-      </div>
-    </div>
-    <div class="container">
+        <div class="row">
      {% for key,val in movies.iteritems() %}
 
-      <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id={{movies[key]['trailer']}} data-toggle="modal" data-target="#trailer">
+      <div class="col-md-6 col-lg-3 text-center">
        	<a href="{{ url_for('movie_page', movie=key) }}">
             <img src={{movies[key]['poster']}} width="220" height="342">
         </a>
-    	<h2>{{movies[key]['title']}}</h2>
+    	<p>{{movies[key]['title']}}</p>
 	  </div>
 	  {% endfor %}
+        </div>
     </div>
 {% endblock %}
 

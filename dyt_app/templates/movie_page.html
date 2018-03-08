@@ -1,21 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-</head>
-
-<iframe id="ytplayer" type="text/html" width="1080" height="720"
+{% extends "base.html" %}
+{% block title %}{{movie['title']}} - Movie Page{% endblock %}
+{% block header %}
+  <section class="container">
+    <iframe id="ytplayer" type="text/html" width=1300 height="720"
   src="https://www.youtube.com/embed/{{movie['trailer']}}?autoplay=0"
   frameborder="0" allowfullscreen></iframe>
+</section>
+{% endblock %}
+{% block body %}
+<div class="container-fluid">
+<div class="col-md-6 col-lg-4">
+            <img src={{movie['poster']}} width="220" height="342">
+    	<h4>{{movie['title']}}</h4>
+	  </div>
+</div>
+{% endblock %}
 
-<!--<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id=# data-toggle="modal" data-target="#trailer">-->
-       	<!--<img src={{movie['poster']}} width="220" height="342">-->
-    	<!--<h2>{{movie['title']}}</h2>-->
-	  <!--</div>-->
-
-
-
-</html>
