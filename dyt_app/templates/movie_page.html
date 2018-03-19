@@ -1,18 +1,27 @@
 {% extends "base.html" %}
 {% block title %}{{movie['title']}} - Movie Page{% endblock %}
 {% block header %}
-  <section class="container">
+  <section class="container-fluid text-center pt-2">
     <iframe id="ytplayer" type="text/html" width=1300 height="720"
   src="https://www.youtube.com/embed/{{movie['trailer']}}?autoplay=0"
   frameborder="0" allowfullscreen></iframe>
 </section>
 {% endblock %}
 {% block body %}
-<div class="container-fluid">
-<div class="col-md-6 col-lg-4">
+<body class="bg-black">
+<div class="container-fluid text-center">
+    <div class="row text-white bg-lighten-2">
+        <div class="col-md-6 col-lg-5">
             <img src={{movie['poster']}} width="220" height="342">
     	<h4>{{movie['title']}}</h4>
 	  </div>
+        <div class="col-md-6 col-lg-5">
+    	<h4>{{movie['title']}}</h4>
+            <hr>
+            <p>movie information</p>
+	  </div>
+    </div>
 </div>
+</body>
 {% endblock %}
 
