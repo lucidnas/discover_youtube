@@ -1,0 +1,219 @@
+{
+  "thelifeguard" : {
+    'poster': 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/rXnkZ0JIq62EzTkPH9uIIO4O1QY.jpg',
+    'video': '-fyASTDtFyI',
+    'title': 'The Lifeguard',
+    'ratings': '57%',
+'Synopsys': 'A former valedictorian quits her reporter job in New York and returns to the place she last felt happy: her childhood home in Connecticut. She gets work as a lifeguard and starts a dangerous relationship with a troubled teenager.',
+    'cast': 'Kristen Bell, David Lambert, Mamie Gummer, Martin Starr, Joshua Harto, Amy Madigan'
+'genre': 'Comedy'
+  },
+
+  "GOTTI" : {
+    'poster': 'http://t1.gstatic.com/images?q=tbn:ANd9GcRwS67cqPdfhgvPAzpk-eqsqeIXDCxoZMv0rr7TGqthXacwuO31',
+    'video': 'GPD0ezmvdNE',
+    'title': 'GOTTI',
+    'Synopsys': 'John Gotti rises to the top of the New York underworld to become the boss of the Gambino crime family. His life takes a tumultuous turn as he faces tragedy, multiple trials and a prison sentence.',
+'ratings': '66%',
+    'cast': 'John Travolta, Kelly Preston, Stacy Keach, Pruitt Taylor Vince, Spencer Lofranco and Victor Gojcaj',
+	'genre': 'Action'
+  },
+
+  "Crazy Little Thing" : {
+    'poster': 'http://t0.gstatic.com/images?q=tbn:ANd9GcTSfRfys5OkyqjLs9Y5kcTCGM742Pt9kj9sxF6fOBErfOWuAaJ0',
+    'video': 'lY0RjYRd1VM',
+    'title': 'Crazy Little Thing',
+    'ratings': '77%',
+'Synopsys': 'Following a broken heart and his best friend as they attempt to murder the ex-girlfriends new boyfriend, in order to win her back.',
+    'cast': 'Andrew Dunbar, Ryan Hoben, Aaron McCallum ',
+	'genre': 'Comedy'
+  },
+
+    "Dirty Deeds" : {
+    'poster': 'http://www.gstatic.com/tv/thumb/dvdboxart/89992/p89992_d_v8_aa.jpg',
+    'video': '5of46VZM7zg',
+    'title': 'Dirty Deeds',
+    'ratings': '59%',
+'Synopsys': 'An American Pie-like teen comedy in which a high school senior tries to become the first student in years to complete the Dirty Deeds, an outrageous series of challenges that must be completed by the Homecoming banquet at 9 a.m',
+'cast': 'Milo Ventimiglia, Lacey Chabert, Charles Durning', 
+	'genre': 'Comedy '
+  },
+
+    "Left Behind" : {
+    'poster': 'https://ia.media-imdb.com/images/M/MV5BMjI4MjA2OTQxMF5BMl5BanBnXkFtZTgwMjcyMTI2MjE@._V1_SY1000_CR0,0,704,1000_AL_.jpg',
+    'video': 'MUOODCHc-XU',
+    'title': 'Left Behind',
+    'ratings': '31%',
+'Synopsys': 'Following a broken heart and his best friend as they attempt to murder the ex-girlfriends new boyfriend, in order to win her back.',
+    'cast': 'Nicolas Cage, Lea Thompson, Chad Michael Murray, Jordin Sparks',
+	'genre': 'Action, Drama'
+  },
+
+    "Rage" : {
+    'poster': 'http://t2.gstatic.com/images?q=tbn:ANd9GcSIx6hkHojMahZWCDm55UiFf5WuUBF0C_X2vAV87UerTL0Lcltv',
+    'video': 'jYBDswZKJ9s',
+    'title': 'Rage',
+    'ratings': '50%',
+'Synopsys': 'When the daughter of a reformed criminal is kidnapped, he rounds up his old crew and seeks his own brand of justice.',
+    'cast': ' Nicolas Cage, Rachel Nichols, Max Ryan ',
+	'genre': 'Action, Crime'
+  },
+
+    "IN THE ARMY" : {
+    'poster': 'https://ia.media-imdb.com/images/M/MV5BOWU5MDMzODQtMmM0ZS00MjU5LWExMzMtZjBlOTczY2NjNTMzXkEyXkFqcGdeQXVyMjY3MjUzNDk@._V1_SY1000_SX676_AL_.jpg',
+    'video': '7X5J7vC3ags',
+    'title': 'IN THE ARMY',
+    'ratings': '48%',
+'Synopsys': 'Two misguided youths join the reserves to make some money for their entrepreneurial dreams. No sooner than they finish basic training are they called up to do their part to save the free world.',
+'cast': ' Pauly Shore, Lori Petty, Andy Dick ',
+	'genre': 'War'
+  },
+
+    "Border Town" : {
+    'poster': 'https://ia.media-imdb.com/images/M/MV5BMTI4NDY5NTMwM15BMl5BanBnXkFtZTcwODYzMDU1MQ@@._V1_.jpg',
+    'video': 'ixEDpNZDv9Y',
+    'title': 'Border Town',
+    'ratings': '61%',
+'Synopsys': 'A journalist investigates a series of murders near American-owned factories on the border of Juarez and El Paso.',
+    'cast': 'Jennifer Lopez, Antonio Banderas, Maya Zapata',
+	'genre': 'Crime, Drama'
+  },
+
+    "Frozen" : {
+    'poster': 'https://ia.media-imdb.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_SY1000_CR0,0,674,1000_AL_.jpg',
+    'video': '-jeQ_caHk8Q',
+    'title': 'Frozen',
+    'ratings': '75%',
+'Synopsys': 'When the newly-crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.',
+    'cast': 'Kristen Bell, Idina Menzel, Jonathan Groff',
+	'genre': 'Animation, Adventure, Comedy'
+  },
+
+    "Deadly crossing" : {
+    'poster': 'https://pics.filmaffinity.com/southern_justice_deadly_crossing-761326748-large.jpg',
+    'video': '0VNsflf4HEI',
+    'title': 'Deadly crossing',
+    'ratings': '33%',
+'Synopsys': 'When an influx of violent and ruthless heroin dealers descend on Seattle, Elijah Kane (Steven Seagal) leads an elite undercover squad of cops to bring them to justice.',
+    'cast': 'Steven Seagal,  Gil Bellows,  J. Anthony Pena,  Kyle Cassie,  Warren Christie,',
+	'genre': 'Action'
+  },
+
+    "Shark Lake" : {
+    'poster': 'https://ia.media-imdb.com/images/M/MV5BNzBlNjVjMGUtZjAzYS00NjY3LWI5ZTctNjRlYWY0MWZmZWUyXkEyXkFqcGdeQXVyMDI4NjM1MQ@@._V1_SY1000_SX675_AL_.jpg',
+    'video': '7zp3qnm23bs',
+    'title': 'Shark Lake',
+    'ratings': '35%',
+'Synopsys': 'A classic american thriller where the lines between man and beast blur and are questioned',
+    'cast': 'Dolph Lundgren, Sara Malakul Lane, Lily Brooks O'Briant',
+	'genre': 'Action, Thriller'
+  },
+
+    "Cleopatra" : {
+    'poster': 'https://ia.media-imdb.com/images/M/MV5BY2YyOGFlZWItY2M5OC00NzJhLWJmNDgtZTVjNzIzMDI3YjgyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SY1000_CR0,0,655,1000_AL_.jpg',
+    'video': 'DWTFXG1yEJ4',
+    'title': 'Cleopatra',
+    'ratings': '57%',
+'Synopsys': 'Queen Cleopatra of Egypt experiences both triumph and tragedy as she attempts to resist the imperial ambitions of Rome.',
+    'cast': 'Elizabeth Taylor, Richard Burton, Rex Harrison',
+	'genre': 'Biography, Drama, History'
+  },
+
+    "Better Off Dead" : {
+    'poster': 'https://ia.media-imdb.com/images/M/MV5BMzRmMjE0MzMtZmQzYi00NjQ1LTk5ODgtYWEzZDViODkxNWFjXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_.jpg',
+    'video': 'jfatrAqd22c',
+    'title': 'Better Off Dead',
+    'ratings': '72%',
+'Synopsys': 'A teenager has to deal with his girlfriend dumping him among family crises, homicidal paper boys, and a rival skier',
+    'cast': 'John Cusack, David Ogden Stiers, Kim Darby',
+	'genre': 'Comedy, Romance '
+  }
+    "The Wrong Car" : {
+    'poster': 'https://ia.media-imdb.com/images/M/MV5BNjE2OTA5MDY2MF5BMl5BanBnXkFtZTgwNjQwMTk2NzE@._V1_.jpg',
+    'video': 'cVvEZyJdjuE',
+    'title': 'The Wrong Car',
+    'ratings': '57%',
+'Synopsys': 'A woman who was raped by a NetCar driver takes a job with the company to exact her revenge on her attacker after she becomes frustrated with the slow pace of the criminal Justice system.',
+    'cast': 'Kristen Bell, David Lambert, Mamie Gummer, Martin Starr, Joshua Harto, Amy Madigan',
+	'genre': 'Drama, Thriller'
+  }
+    "Stranger in the House" : {
+    'poster': 'https://ia.media-imdb.com/images/M/MV5BMGNkOGQ2NGYtMTc0Yy00NzI0LThjMzQtMjRjNDg3YzFmM2JmXkEyXkFqcGdeQXVyMDAyMTY3Nw@@._V1_SY1000_CR0,0,749,1000_AL_.jpg',
+    'video': '9tfBbNCglic',
+    'title': 'Stranger in the House',
+    'ratings': '56%',
+'Synopsys': 'A bitter and greedy retired businessman is killed in a mysterious fall, and his adult daughter blames his manipulative and creepy but seductive new wife, Samantha. Who is Samantha, and is she capable of murder?',
+    'cast': 'Emmanuelle Vaugier, Matthew MacCaull, Jordana Largy',
+	'genre': 'Thriller'
+  }
+    "Battle in Seattle" : {
+    'poster': 'https://ia.media-imdb.com/images/M/MV5BMjIxMzE1NzcxM15BMl5BanBnXkFtZTgwMDcyNDM2MTI@._V1_SY1000_CR0,0,675,1000_AL_.jpg',
+    'video': 'YwnVYzyAQoI',
+    'title': 'Battle in Seattle',
+    'ratings': '67%',
+'Synopsys': 'Activists arrive in Seattle, Washington en masse to protest a meeting of the World Trade Organization. Riots and chaos ensue as demonstrators successfully stop the WTO meetings.',
+    'cast': 'AndrÈ Benjamin, Jennifer Carpenter, Isaach De BankolÈ ',
+	'genre': 'Action, Drama '
+  }
+
+
+    "Secret Millionaire" : {
+    'poster': 'http://www.gstatic.com/tv/thumb/tvbanners/302974/p302974_b_v8_aa.jpg',
+    'video': '9xCPbjo7QCI',
+    'title': 'Secret Millionaire',
+    'ratings': '57%',
+'Synopsys': 'Very rich father wants to build on a local park. His only son fall in love with cute protester, but she doesn't know who his father is.',
+    'cast': 'Steve Lund, Siobhan Williams, Allie Bertram |',
+	'genre': 'Comedy'
+  }
+    "Jamesy Boy" : {
+    'poster': 'http://t2.gstatic.com/images?q=tbn:ANd9GcTCQXGeMHLdNDm0qp84JPnvvt7pw02s53J6AV9eaosOwg4XNtO_',
+    'video': 'UA0VQo0064o',
+    'title': 'Jamesy Boy',
+    'ratings': '63%',
+'Synopsys': 'A young gang member turns his life around in prison, thanks to the friendship he forms with a convicted murderer who becomes his mentor.',
+    'cast': 'Spencer Rocco Lofranco, Mary-Louise Parker, Ving Rhames',
+	'genre': 'Biography, Crime, Drama'
+  }
+    "Last night" : {
+    'poster': 'https://ia.media-imdb.com/images/M/MV5BNTk1Nzc5OTkwN15BMl5BanBnXkFtZTcwNjEyMTA4NA@@._V1_SY1000_CR0,0,674,1000_AL_.jpg',
+    'video': 'pQWhwe3uEMc',
+    'title': 'Last night',
+    'ratings': '66%',
+'Synopsys': 'The story follows a married couple, apart for a night while the husband takes a business trip with a colleague to whom he's attracted. While he's resisting temptation, his wife encounters her past love..',
+    'cast': 'Keira Knightley, Sam Worthington, Eva Mendes',
+	'genre': 'Drama, Romance '
+  }
+    "Mafia 2" : {
+    'poster': 'https://ia.media-imdb.com/images/M/MV5BMTQwMTkzMjM4M15BMl5BanBnXkFtZTcwOTIwMjM5OA@@._V1_SY1000_CR0,0,704,1000_AL_.jpg',
+    'video': 'x_NUZ_74Z1Q',
+    'title': 'Mafia 2',
+    'ratings': '85%',
+    'Synopsys': 'The chronicles of Vito Scalletta, a young Italian immigrant who joins the Italian mafia, but soon gets in over his head when illegal drug dealing and deception take place.',
+    'cast': 'Rick Pasqualone, Robert Costanzo, Ray Iannicelli',
+	'genre': 'Action, Crime, Drama'
+  }
+
+    "Blood And Bone" : {
+    'poster': 'https://ia.media-imdb.com/images/M/MV5BNjE0MDc4ODY4Ml5BMl5BanBnXkFtZTcwNDI2NjM4Mg@@._V1_.jpg',
+    'video': 'CA2JLC-FYg0',
+    'title': 'Blood And Bone',
+    'ratings': '67%',
+    'Synopsys': 'In Los Angeles, an ex-con takes the underground fighting world by storm in his quest to fulfill a promise to a dead friend..',
+    'cast': 'Michael Jai White, Julian Sands, Eamonn Walker',
+	'genre': 'Action, Drama'
+  }
+
+    "The Last Of The Finest" : {
+    'poster': 'https://ia.media-imdb.com/images/M/MV5BMTQxODI2MTQ5N15BMl5BanBnXkFtZTcwMTY2NjE2NA@@._V1_SY1000_CR0,0,660,1000_AL_.jpg',
+    'video': 'D5vnjXpUk-Y',
+    'title': 'The Last Of The Finest',
+    'ratings': '57%',
+    'Synopsys': 'An elite group of vice cops are fired from the L.A.P.D. for being over-zealous in their war against drugs. It is immediately apparent that some of their superiors are involved in the drug .',
+    'cast': 'Brian Dennehy, Joe Pantoliano, Jeff Fahey',
+	'genre': 'Action, Crime, Drama'
+  }
+   
+ 
+
+}
