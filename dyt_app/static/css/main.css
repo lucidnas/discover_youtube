@@ -104,10 +104,11 @@ p.paragraph.header-message {
 
 p.paragraph.bio {
   padding: 20px 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  background-color: #b9b9b9;
+  border-radius: 5px;
+  background-color: #ace0ec;
   font-size: 17px;
+  text-align: center;
+  font-family: 'Chelsea Market', Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 p.paragraph.footer-paragraph {
@@ -149,7 +150,7 @@ a.link-text {
 
 a.link-text.nav-link:hover {
   padding: 10px;
-  background-color: #57316d;
+  background-color: #0056ac;
   color: #ebebeb;
 }
 
@@ -562,7 +563,7 @@ div.responsive-picture.sponsors-image {
 
   .container.info-image-container {
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 20% 79%;
     /* grid-template-rows: repeat(3 , auto); */
     /* grid-auto-rows: 20px;
     grid-auto-columns: 20px; */
@@ -577,14 +578,10 @@ div.responsive-picture.sponsors-image {
     border-radius: 0;
   }
 
-  .movie-cast {
+  .movie-info-cgr {
     font-family: 'Chelsea Market', Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 1.5em;
-  }
-
-  .movie-info {
-    display: grid;
-    grid-template-rows: repeat(3, 20%);
+    text-align: center;
   }
 
   .container.text-container {
@@ -640,11 +637,11 @@ div.responsive-picture.sponsors-image {
   }
 
   p.paragraph {
-    color: #575757;
+    color: #171313;
   }
 
   a.link-text.nav-link:hover {
-    background-color: #57316d;
+    background-color: #0056ac;
   }
 
   /* Layout Elements */
@@ -703,7 +700,7 @@ div.responsive-picture.sponsors-image {
   .container.location {
     margin-right: auto;
     margin-left: auto;
-    max-width: 500px;
+    max-width: 15%;
   }
 
   .container.contac-us-footer {
@@ -713,7 +710,7 @@ div.responsive-picture.sponsors-image {
   }
 
   .container.cats-for-adoption-wrapper {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+    grid-template-columns: repeat(6, 15%);
   }
 
   .container.text-container {
@@ -753,10 +750,12 @@ div.responsive-picture.sponsors-image {
     margin: 1em 9em 0;
     font-family: 'Chelsea Market', Arial, 'Helvetica Neue', Helvetica, sans-serif;
     width: 40%;
+    background-color: #0056ac;
   }
 
   .container.cats-for-adoption-wrapper {
     margin-top: 1%;
+    margin-bottom: 1%;
   }
 
   .video-responsive {
@@ -764,7 +763,7 @@ div.responsive-picture.sponsors-image {
     padding-bottom:56.25%;
     position:relative;
     height:0;
-    margin: 0 5%;
+    margin: 0;
   }
   .video-responsive iframe {
     left:0;
@@ -780,7 +779,7 @@ div.responsive-picture.sponsors-image {
     min-height: 50px;
     height: auto;
     color: #0056ac;
-    text-align: start;
+    text-align: center;
     font-family: 'Chelsea Market', Arial, 'Helvetica Neue', Helvetica, sans-serif;
   }
 

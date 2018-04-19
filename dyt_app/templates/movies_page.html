@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="container cats-for-adoption-wrapper" id="adoption">
+        {% for key,val in movies.iteritems() %}
+        <div class="container info-container">
+            <a href="{{ url_for('movie_page', movie=key) }}" class="responsive-picture picture-link-1">
+                <picture>
+                    <img alt="{{movies[key]['title']}}" src="{{movies[key]['poster']}}">
+                </picture>
+            </a>
+          <h2 class="name">{{movies[key]['title']}}</h2>
+        </div>
+            {% endfor %}
+    </div>
+{% endblock %}

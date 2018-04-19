@@ -21,8 +21,9 @@ def movie_page(movie):
 def search_page(input):
     pass
 
-def about_page():
-    pass
+@app.route('/movies')
+def movies_page():
+    return render_template('movies_page.html', title='Discover Youtube', movies=movie_data)
 
 def contact_page():
     pass
