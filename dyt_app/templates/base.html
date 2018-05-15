@@ -19,11 +19,30 @@
 
 <body class="no-js">
     <div class="container header-container" id="top">
-        <a href="{{ url_for('home_page') }}" class="logo">Discover Youtube</a>
+        <a href="{{ url_for('home_page') }}" class="logo">Discover Youtube</a>          
             <div class="container menu-container">
-              <a class="link-text nav-link smooth-scroll" href="{{ url_for('movies_page') }}">All Movies</a>
+                <div class="input-group searchbar">
+                    <form method="GET" action="{{ url_for('search_page') }}">
+                      {{ form.query(placeholder="Search for movies", size=20) }}
+                  </form>
+                  </div>
+              
+                  <ul class="dropdown menu" data-dropdown-menu style="min-width: 100px;">
+                      <li><a class="link-text nav-link smooth-scroll">Categories</a>
+                        <ul class="menu">
+                          <li><a class="link-text nav-link" href="{{ url_for('movies_page', genre="action") }}">Action</a></li>
+                          <li><a class="link-text nav-link" href="{{ url_for('movies_page', genre="adventure") }}">Andventure</a></li>
+                          <li><a class="link-text nav-link" href="{{ url_for('movies_page', genre="drama") }}">Drama</a></li>
+                          <li><a class="link-text nav-link" href="{{ url_for('movies_page', genre="horror") }}">Horror</a></li>
+                          <li><a class="link-text nav-link" href="{{ url_for('movies_page', genre="romance") }}">Romance</a></li>
+                          <li><a class="link-text nav-link" href="{{ url_for('movies_page', genre="scifi") }}">Sci Fi</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+              <a class="link-text nav-link smooth-scroll" href="{{ url_for('movies_page', genre="allmovies") }}">All Movies</a>
               <a class="link-text nav-link smooth-scroll" href="#contact">Contact Us</a>
             </div>
+
     </div>
 {% block content %}
 {% endblock %}

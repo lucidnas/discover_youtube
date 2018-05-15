@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container info-image-container">
+        <h2>{{movie_count}} movies found that matches your search.</h2>
+            {% for key,val in movies_info.iteritems() %}
+            <div class="container info-container movie-poster">
+                <a href="{{ url_for('movie_page', movie=key) }}" class="responsive-picture picture-link-1">
+                    <picture>
+                        <img alt="{{movies_info[key]['title']}}" src="{{movies_info[key]['poster']}}">
+                    </picture>
+                </a>
+            </div>
+            <div class="movie-info">
+                <h1 class="name movie-title">{{movies_info[key]['title']}}</h1>
+                <p class="movie-synopsis paragraph bio">{{movies_info[key]['Synopsys']}}</p>
+                <p class="movie-info-cgr"><span style="color: #0056ac;">Cast: </span>{{movies_info[key]['cast']}}</p>
+                <p class="movie-info-cgr"><span style="color: #0056ac;">Genre: </span>{{movies_info[key]['genre']}}</p>
+                <p class="movie-info-cgr"><span style="color: #0056ac;">TMDB Ratings: </span>{{movies_info[key]['ratings']}}</p>
+            </div>
+            {% endfor %}
+        </div>
+{% endblock %}
