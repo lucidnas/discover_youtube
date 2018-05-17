@@ -1,6 +1,5 @@
 from dyt_app import app
 from flask import render_template, request
-import json, requests
 from flask_wtf import FlaskForm
 from wtforms import StringField
 from wtforms.validators import DataRequired

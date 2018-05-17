@@ -2,7 +2,6 @@
 
 {% block content %}
     <div class="container info-image-container">
-        <h2>{{movie_count}} movies found that matches your search.</h2>
             {% for key,val in movies_info.iteritems() %}
             <div class="container info-container movie-poster">
                 <a href="{{ url_for('movie_page', movie=key) }}" class="responsive-picture picture-link-1">
